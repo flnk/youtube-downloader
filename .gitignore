@@ -1,0 +1,20 @@
+# Virtual environment and build output
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+
+# Large / generated files (ffmpeg is downloaded by the CI workflow)
+ffmpeg.exe
+*.dmg
+AppIcon.icns
+AppIcon.iconset/
+dmg_staging/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
